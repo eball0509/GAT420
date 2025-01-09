@@ -4,7 +4,7 @@
 bool ExampleScene::Initialize()
 {
 	m_renderer.Initialize();
-	m_renderer.CreateWindow("Example", 800, 600);
+	m_renderer.CreateWindow("ExampleScene", 800, 600);
 
 	m_input.Initialize();
 	m_input.Update();

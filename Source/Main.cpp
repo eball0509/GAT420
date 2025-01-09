@@ -1,10 +1,12 @@
 #include "ExampleScene.h"
+#include "CAScene.h"
+#include "GOLScene.h"
 #include <memory>
 #include <SDL.h>
 
 int main(int, char**)
 {
-	std::unique_ptr<ExampleScene> scene = std::make_unique<ExampleScene>();
+	std::unique_ptr<GOLScene> scene = std::make_unique<GOLScene>();
 
 	scene->Initialize();
 	while (!scene->IsQuit())
